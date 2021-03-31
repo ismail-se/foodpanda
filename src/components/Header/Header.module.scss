@@ -1,0 +1,32 @@
+@import "../../../public/colors.scss";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo {
+  }
+  .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .avatar {
+        width: 1.8rem;
+        height: 1.8rem;
+        background-color: $primary;
+      }
+
+      .link {
+        cursor: pointer;
+        color: #d70f64;
+      }
+    }
+  }
+}
